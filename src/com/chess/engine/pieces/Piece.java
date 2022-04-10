@@ -7,11 +7,12 @@ import com.chess.engine.board.Colour;
 public abstract class Piece {
     protected final int piecePosition;
     protected final Colour pieceColour;
-
+    //constructor
     Piece(final int piecePosition,final Colour pieceColour) {
         this.piecePosition = piecePosition;
         this.pieceColour = pieceColour;
     }
+    //getters
     public Colour getColour() {
         return this.pieceColour;
     }
