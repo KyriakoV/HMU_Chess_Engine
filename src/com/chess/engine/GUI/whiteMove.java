@@ -1,4 +1,4 @@
-package src;
+package com.chess.engine.GUI;
 
 public class whiteMove {
     static short stepInTern = 0;
@@ -23,7 +23,7 @@ public class whiteMove {
             nextSquare = sq.getId();
             stepInTern = 0;
             System.out.println(previousSquare + "->" + nextSquare + "name" + nameOfThePiece);
-            chessboard.getSquare(previousSquare);
+            //chessboard.getSquare(previousSquare);
         }
     }
 

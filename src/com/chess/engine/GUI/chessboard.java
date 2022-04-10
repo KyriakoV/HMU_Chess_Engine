@@ -1,4 +1,4 @@
-package src;
+package com.chess.engine.GUI;
 import javax.swing.JFrame;
 import java.awt.GridLayout;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package src;
+package com.chess.engine.GUI;
 
 public class App
 {

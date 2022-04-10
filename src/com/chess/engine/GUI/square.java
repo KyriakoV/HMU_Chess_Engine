@@ -1,4 +1,4 @@
-package src;
+package com.chess.engine.GUI;
 import javax.swing.JButton;
 import javax.swing.ImageIcon;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package src;
+package com.chess.engine.GUI;
 import java.awt.event.ActionListener;
 import java.util.IdentityHashMap;
 import java.awt.event.ActionEvent;
