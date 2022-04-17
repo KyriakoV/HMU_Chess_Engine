@@ -14,11 +14,11 @@ public class whiteMove {
     public static void Move(square sq){
 
             if(stepInTern == 0)
-        {
-            previousSquare = sq.getId();
-            nameOfThePiece = sq.getName();
-            stepInTern = 1;
-        }
+            {
+                previousSquare = sq.getId();
+                nameOfThePiece = sq.getName();
+                stepInTern = 1;
+            }
         else{
             nextSquare = sq.getId();
             stepInTern = 0;

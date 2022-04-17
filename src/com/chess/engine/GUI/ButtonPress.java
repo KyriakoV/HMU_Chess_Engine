@@ -10,6 +10,8 @@ public class ButtonPress implements ActionListener
         this.sq = sq;
     }
 
+
+    //this is what happens went a button pressed
     public void actionPerformed(ActionEvent e)
     {
         System.out.println("button pressed");

@@ -5,8 +5,13 @@ import java.util.ArrayList;
 
 public class chessboard {
     
+    //window size
+
     public static final int WIDTH = 300; 
     public static final int HEIGHT = 200;
+    
+    //variable decliration
+
     JFrame frame = new JFrame("Chess");
     ArrayList<square> squares = new ArrayList<square>();
 
@@ -78,12 +83,16 @@ public class chessboard {
                 frame.add(sq.getButton());
             }
         }
+        //alignment shit
         frame.pack(); 
     
     
 
     
     }
+
+    //Return Square
+
     public square getSquare(int id){
         return squares.get(id);
     }

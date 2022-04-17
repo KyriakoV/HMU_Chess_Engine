@@ -3,6 +3,9 @@ import javax.swing.JButton;
 import javax.swing.ImageIcon;
 import java.awt.*;
 public class square {
+
+        //variable decliration
+
         private int id;
         private int color;
         private String name;
@@ -50,7 +53,11 @@ public class square {
             return button;
         }
 
+        // refreshing icons
+
         public void updateSquare(){
+
+            
             if(name == "white_king"){
                 ImageIcon icon = new ImageIcon("C:/Users/mgeor/Documents/chess/icons/white_king45.png");
                 button.setIcon(icon);
